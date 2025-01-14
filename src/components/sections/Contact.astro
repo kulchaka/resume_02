@@ -1,0 +1,19 @@
+---
+import Card from '../Card.astro'
+import {PROFILE} from "../../content/profileData";
+import { getCollection } from "astro:content";
+
+
+const books = await getCollection('books');
+
+console.log(books);
+---
+
+  <div class="h-full">
+    <address class="mt-4 flex flex-col">
+      <h2 class="text-gray-500">Contact Details</h2>
+      <a href="mailto:kulchaka@gmail.com"> 📧  kulchaka@gmail.com</a>
+      <a href="tel:+420737072769">📞 +420 737 07 27 69</a>
+      <a href="https://maps.app.goo.gl/iaoEo5cWMvNoeUJM9">📍 Olomouc, Czech Republic 🇨🇿</a>
+    </address>
+  </div>
