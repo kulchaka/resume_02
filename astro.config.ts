@@ -6,7 +6,11 @@ import mdx from "@astrojs/mdx";
 // https://astro.build/config
 export default defineConfig({
   site: 'https://kulchaka.github.io',
-  base: '/resume_02',
+  base: './',
+  build: {
+    assets: 'assets',
+    assetsPrefix: '.'
+  },
   integrations: [
     react(),
     tailwind({
