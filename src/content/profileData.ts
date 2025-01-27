@@ -17,7 +17,7 @@ export const PROFILE = {
     "I enjoy providing software solutions, bringing ideas to life, and solving real-world problems.I take pride in delivering high-quality results and ensuring that every task is completed to the end.",
   website: "https://techtim42.com",
   repo: "https://github.com/kulchaka",
-  avatarUrl: "https://kulchaka.github.io/resume/img/pic/clipart2649902213.png",
+  avatarUrl: "https://kulchaka.github.io/resume/img/pic/newAK.png",
   shortIntros: [
 
     "💻 Frontend Developer | Enthusiast of React JS, TypeScript, Ant Design, and various npm libraries",
